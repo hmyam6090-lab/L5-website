@@ -15,7 +15,7 @@ L5 programs run using LÖVE (also called Love2d), a free, open-source framework.
 1. Download [Love2d](https://www.love2d.org/)
 2. Download the [L5 Starter project](/L5-starter.zip) and extract it 
 3. Open *main.lua* in any text editor and start coding (a starter program is already there)
-4. To run: drag the L5-starter folder onto the Love application, or run from command line/IDE. See [Getting Started](../getting-started.md) for details.
+4. To run: drag the L5-starter folder onto the Love application, or run from command line/IDE. See [Getting Started](/getting-started) for details.
 
 ## Downloads
 
