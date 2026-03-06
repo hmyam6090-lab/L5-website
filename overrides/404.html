@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="md-container" data-md-component="container">
+  <div class="md-grid" data-md-component="grid">
+    <main class="md-main" data-md-component="main">
+      <div class="md-main__inner md-grid">
+        <div class="md-content">
+          <article class="md-content__inner md-typeset">
+            <h1>404 — Page Not Found</h1>
+            
+            <p style="text-align: center;">
+              <img src="{{ config.site_url }}assets/404_L5.gif" alt="Error Page L5 animation" style="max-width: 400px; margin: 20px auto; display: block;">
+            </p>
+            
+            <h2>Oops! We couldn't find that page.</h2>
+            
+            <p>It looks like the page you're looking for doesn't exist or has been moved. This might happen if:</p>
+            
+            <ul>
+              <li>The URL was typed incorrectly</li>
+              <li>A link is outdated or broken</li>
+              <li>The page has been reorganized in a newer version</li>
+            </ul>
+            
+            <h2>Where to go from here</h2>
+            
+            <p>Start exploring L5 from these helpful places:</p>
+            
+            <ul>
+              <li><strong><a href="{{ config.site_url }}">Welcome to L5</a></strong>: Get started with L5 fundamentals</li>
+              <li><strong><a href="{{ config.site_url }}getting-started/">Getting Started</a></strong>: Installation and your first sketch</li>
+              <li><strong><a href="{{ config.site_url }}download/">Download L5</a></strong>: Get the latest version for your platform</li>
+              <li><strong><a href="{{ config.site_url }}reference/">Reference</a></strong>: Complete API documentation</li>
+              <li><strong><a href="{{ config.site_url }}examples/">Examples</a></strong>: Learn by exploring example sketches</li>
+              <li><strong><a href="{{ config.site_url }}L5-for-processingp5/">L5 for Processing Users</a></strong>: If you know Processing, start here</li>
+            </ul>
+            
+            <h2>Have trouble?</h2>
+            
+            <p>If you think you found a broken link or something is missing, please help us improve:</p>
+            
+            <ul>
+              <li><a href="{{ config.site_url }}bug-reports/">Report a bug</a>: Let us know about issues</li>
+              <li><a href="{{ config.site_url }}contributing/">Contributing guide</a>: Help improve the L5 documentation</li>
+              <li><a href="https://github.com/l5lua/L5">Visit the L5 GitHub repository</a>: Check the issues or join the discussion</li>
+            </ul>
+            
+            <hr>
+            
+            <p><em>L5 is a Processing library in Lua. Happy coding!</em></p>
+          </article>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+{% endblock %}
