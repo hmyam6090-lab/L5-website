@@ -16,38 +16,41 @@ theme:
   favicon: assets/L5-logo-blob.png
   features:
     - navigation.indexes
-    - content.code.copy          # Copy button
-    - content.code.select        # Allow selecting code
+    - content.code.copy # Copy button
+    - content.code.select # Allow selecting code
+  custom_dir: overrides
+  static_templates:
+    - 404.html
 extra_css:
- - stylesheets/extra.css
+  - stylesheets/extra.css
 extra:
   generator: false
 nav:
   - Welcome to L5: index.md
-  - Download: 
-    - Download: download/index.md
-    - Install for Mac: download/install-mac.md
-    - Install for Windows: download/install-windows.md
-    - Install for Linux: download/install-linux.md
+  - Download:
+      - Download: download/index.md
+      - Install for Mac: download/install-mac.md
+      - Install for Windows: download/install-windows.md
+      - Install for Linux: download/install-linux.md
   - Getting Started: getting-started.md
   - L5 for Processing-p5.js programmers: L5-for-processingp5.md
-  - Reference: 
-    - Reference Summary: reference/index.md
-    - Shape: reference/#shape
-    - Color: reference/#color
-    - Typography: reference/#typography
-    - Image: reference/#image
-    - Media: reference/#media
-    - Transform: reference/#transform
-    - Environment: reference/#environment
-    - Rendering: reference/#rendering
-    - Math: reference/#math
-    - IO: reference/#io
-    - Events: reference/#events
-    - Data: reference/#data
-    - Structure: reference/#structure
-    - Constants: reference/#constants
-    - Foundation: reference/#foundation
+  - Reference:
+      - Reference Summary: reference/index.md
+      - Shape: reference/#shape
+      - Color: reference/#color
+      - Typography: reference/#typography
+      - Image: reference/#image
+      - Media: reference/#media
+      - Transform: reference/#transform
+      - Environment: reference/#environment
+      - Rendering: reference/#rendering
+      - Math: reference/#math
+      - IO: reference/#io
+      - Events: reference/#events
+      - Data: reference/#data
+      - Structure: reference/#structure
+      - Constants: reference/#constants
+      - Foundation: reference/#foundation
   - Tutorials: tutorials/index.md
   - Examples: examples/index.md
   - Bug Reports: bug-reports.md
