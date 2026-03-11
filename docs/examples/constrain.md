@@ -22,7 +22,6 @@ From here, you can try:
 ```lua
 require("L5")
 
--- Declare Variables
 local mx = 0
 local my = 0
 local easing = 0.05
@@ -32,10 +31,9 @@ local inner = edge + radius
 
 function setup()
     size(640, 360)
-    windowTitle("Contrain")
+    windowTitle("Constrain")
     describe(" Move the mouse across the screen to move the circle. The program constrains the circle to its box.")
 
-    -- Draw Modes
     noStroke()
     ellipseMode(RADIUS)
     rectMode(CORNERS)

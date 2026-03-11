@@ -25,7 +25,6 @@ From here, you can try:
 ```lua
 require("L5")
 
--- Declare Variables
 local bx = 0
 local by = 0
 local boxSize = 75
@@ -39,11 +38,9 @@ function setup()
     windowTitle("Mouse Functions")
     describe("Click on the box and drag it across the screen.")
 
-    -- Draw Modes
     noStroke()
     rectMode(RADIUS)
 
-    -- Initialize Variables
     bx = width / 2.0
     by = height / 2.0
     boxSize = 75
@@ -56,6 +53,7 @@ end
 function draw()
     background(0)
 
+    -- Test if the cursor is over the box 
     if ((mouseX > bx - boxSize and mouseX < bx + boxSize) and (mouseY > by - boxSize and mouseY < by + boxSize)) then
         overbox = true
         if (not locked) then

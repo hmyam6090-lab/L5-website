@@ -23,21 +23,19 @@ From here, you can try:
 ```lua
 require("L5")
 
--- Declare Variables
-local rectWidth = width / 4
-
 function setup()
     size(640, 360)
     windowTitle("Keyboard")
     describe("Press letter keys to create forms in time and space")
 
-    -- Draw Modes
     noStroke()
     background(0)
+
+    rectWidth = width / 4
 end
 
 function draw()
-    -- Keep draw() heer to continue looping while waiting for keys
+    -- Keep draw() here to continue looping while waiting for keys
 end
 
 function keyPressed()

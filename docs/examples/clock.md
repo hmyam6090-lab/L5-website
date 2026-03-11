@@ -22,7 +22,6 @@ From here, you can try:
 ```lua
 require("L5")
 
--- Declare Variables
 local cx, cy
 local secondsRadius
 local minutesRadius
@@ -36,7 +35,6 @@ function setup()
 
     stroke(255)
 
-    -- Initialize variables
     local radius = min(width, height) / 2
     secondsRadius = radius * 0.72
     minutesRadius = radius * 0.60

@@ -16,7 +16,6 @@ From here, you can try:
 - adding different shapes for different key categories
 - incorporating `keyReleased()` for key release events
 - creating a full text display that captures typed words
-- adding sound feedback for different keys
 - creating animated transitions between letters
 
 ![animation of a color typewriter with varying heights](/assets/examples/keyboard-functions.gif "Colored rectangles of different heights appearing continuously as keys are typed, wrapping across the screen")
